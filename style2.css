@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', sans-serif;
+}
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+.nav_logo{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.logo_text{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    left: 20%;
+    font-weight: bold;
+}
+header{
+    background-color: #cfc4b9;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar .nav_logo .logo_text{
+    color: #fff;
+}
+.navbar .nav_menu .nav_link{
+    color: #fff;
+    padding: 10px,18px;
+    background-color: #cfc4b9;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s ease;
+    margin-right: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor:pointer;
+    border: none;
+    background: none;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav_menu .nav_link:hover
+{
+    color: #000;
+    background-color: #9b8a73;
+}
+.ra2isi{
+    color: #000;
+    background-color: #9b8a73;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+body{
+    background-color: #cfc4b9;
+}
+.hero_section{
+    min-height: 100vh;
+    background-color: #cfc4b9;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.hero_section .section_content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    justify-content: space-between;
+}
+.hero_section .hero_details .title{
+    font-size: 82px;
+    color: #000;
+    font-family: 'Arima', sans-serif;
+}
+.hero_section .hero_details .subtitle{
+    margin-top: 1px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.hero_section .hero_image_wrapper{
+    max-width: 500px;
+    margin-right: 30px;
+}
+.hero_section .hero_details .button{
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #9b8a73;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.hero_section .hero_details .button:hover{
+    color: #000;
+    border-color: #000;
+    background-color: transparent;
+}
+.hero_section .hero_details .buttons{
+    margin-top: 40px;
+}
