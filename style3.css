@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', sans-serif;
+}
+.logo{
+    margin-left: 0;
+    max-width: 150px;
+    max-height: 150px;
+}
+.nav_logo{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.logo_text{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    left: 20%;
+    font-weight: bold;
+}
+header{
+    background-color: #cfc4b9;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar .nav_logo .logo_text{
+    color: #fff;
+}
+.navbar .nav_menu .nav_link{
+    color: #fff;
+    padding: 10px,18px;
+    background-color: #cfc4b9;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3s ease;
+    margin-right: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav_menu .nav_link:hover
+{
+    color: #000;
+    background-color: #9b8a73;
+}
+.ra2isi{
+    color: #000;
+    background-color: #9b8a73;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+body{
+    background-color: #cfc4b9;
+}
+.card_container
+{
+    max-height: 100%;
+    max-width: 75%;
+    align-items: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    display: inline-flex;
+}
+.cat_card{
+    height: 500px;
+    width: 410px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 20PX 50px #000;
+    align-items: center;
+    margin-top: 15%;
+    margin-right: 190px;
+    margin-left: 90px;
+}
+.dog_card{
+    height: 500px;
+    width: 410px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 20PX 50px #000;
+    align-items: center;
+    margin-top: 16%;
+}
+.cat{
+    max-width: 100%;
+    max-height: 70%;
+    margin-left: 17px;
+}
+.dog{
+    width: 100%;
+    height: 90%;
+    max-width: 100%;
+    max-height: 70%;
+    
+}
+.btn{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    padding-left: 50px;
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #9b8a73;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    color: #000;
+    border-color: #000;
+    background-color: transparent;
+    cursor: pointer;
+}
